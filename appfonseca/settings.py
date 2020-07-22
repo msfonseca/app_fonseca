@@ -51,6 +51,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'appfonseca.urls'
 #telmoooooo
+#esa es tu otra rama
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
