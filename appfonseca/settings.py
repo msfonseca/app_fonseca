@@ -50,7 +50,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'appfonseca.urls'
-
+#telmoooooo
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
