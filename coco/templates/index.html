@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Mi Web</title>
+</head>
+<body>
+    <header>
+        <a class="titulo" href="{% url 'inicio' %}">
+            <h1>Mi primera web</h1>
+        </a>
+        <nav>
+            <ul>
+                <li ><a href="{% url 'inicio' %}">Inicio</a></li>
+                <li ><a href="{% url 'nosotros' %}">Nosortos</a></li>
+                <li ><a href="{% url 'servicios' %}">Servicios</a></li>
+                <li ><a href="{% url 'contacto' %}">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
